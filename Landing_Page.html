@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Booking</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Landing_Page.css">
+</head>
+<body>
+	<header id="header">
+		<h1>Train Booking</h1>
+		<p>Book your train tickets online with ease</p>
+		<nav id="nav">
+			<ul class="nav-links">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Trains</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<div class="menu-icon">&#9776;</div>
+			<div class="close-icon">&times;</div>
+		</nav>
+	</header>
+
+	<section id="booking">
+		<div class="booking-form">
+			<h2>Book Your Train Tickets</h2>
+			<form>
+				<label for="from">From:</label>
+				<input type="text" id="from" name="from" required>
+				<label for="to">To:</label>
+				<input type="text" id="to" name="to" required>
+				<label for="date">Date:</label>
+				<input type="date" id="date" name="date" required>
+				<label for="class">Class:</label>
+				<select id="class" name="class">
+					<option value="economy">Economy</option>
+					<option value="business">Business</option>
+					<option value="first-class">First Class</option>
+				</select>
+				<label for="passengers">Passengers:</label>
+				<input type="number" id="passengers" name="passengers" min="1" max="10" required>
+				<button type="submit">Search Trains</button>
+			</form>
+		</div>
+	</section>
+
+	<section id="features">
+		<div class="feature-card">
+			<i class="fas fa-train"></i>
+			<h3>Comfortable Journey</h3>
+			<p>Enjoy a comfortable and smooth journey on our modern trains.</p>
+		</div>
+		<div class="feature-card">
+			<i class="fas fa-clock"></i>
+			<h3>On Time</h3>
+			<p>We value your time and ensure that our trains run on schedule.</p>
+		</div>
+		<div class="feature-card">
+			<i class="fas fa-wifi"></i>
+			<h3>Stay Connected</h3>
+			<p>Stay connected with free Wi-Fi on board our trains.</p>
+		</div>
+	</section>
+
+	<section id="train">
+		<h2>Popular Trains</h2>
+		<div class="train-card">
+			<h3>Shatabdi Express</h3>
+			<p>AC Chair Car | Departure: 8:00 AM | Duration: 2h 30m | Price: Rs. 1,500</p>
+			<button>Book Now</button>
+		</div>
+		<div class="train-card">
+			<h3>Rajdhani Express</h3>
+			<p>AC First Class | Departure: 6:00 PM | Duration: 19h | Price: Rs. 4,500</p>
+			<button>Book Now</button>
+		</div>
+		<div class="train-card">
+			<h3>Duronto Express</h3>
+			<p>AC Sleeper | Departure: 10:00 PM | Duration: 12h 30m | Price: Rs. 2,000</p>
+			<button>Book Now</button>
+		</div>
+	</section>
+	<section id="footer">
+		<div class="footer-logo">
+			<h2>Train Booking</h2>
+			<p>Book your train tickets online with ease</p>
+		</div>
+		<div class="footer-links">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Trains</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<div class="footer-social">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		</div>
+	</section>
+</body>
+</html>
